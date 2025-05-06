@@ -11,12 +11,14 @@ const buttonVariants = cva(
       variant: {
         default:
           'bg-primary-200 text-sm-bold md:text-md-bold rounded-full text-neutral-950',
+        circleWhite: 'bg-neutral-25 rounded-full',
         outline:
-          'border border-neutral-950 rounded-full hover:border-neutral-800',
+          'border border-neutral-800 rounded-full hover:border-neutral-700 text-primary-200',
       },
       size: {
-        default: 'h-14 px-29.375',
-        icon: 'size-8',
+        default: 'h-12 md:h-14 px-29.375',
+        circleWhite: 'size-12.5 md:size-25',
+        icon: 'size-10 md:size-12',
       },
     },
     defaultVariants: {

@@ -1,6 +1,7 @@
 import { StaticImageData } from 'next/image';
 
 import iconSrc from '../../public/Icons/Vector.svg';
+import iconSrcDarken from '../../public/Icons/VectorDarken.svg';
 
 type Work = {
   iconSrc: StaticImageData;
@@ -9,54 +10,54 @@ type Work = {
 
 export const worksData: Work[] = [
   {
-    iconSrc,
+    iconSrc: iconSrc,
     list: 'React Expert',
   },
   {
-    iconSrc,
+    iconSrc: iconSrc,
     list: 'Precise Website Implementation',
   },
   {
-    iconSrc,
+    iconSrc: iconSrc,
     list: 'TypeScript Proficiency',
   },
   {
-    iconSrc,
+    iconSrc: iconSrc,
     list: 'Clean, Maintainable Code',
   },
   {
-    iconSrc,
+    iconSrc: iconSrc,
     list: 'Responsive Website Development',
   },
   {
-    iconSrc,
+    iconSrc: iconSrc,
     list: 'UI Design Proficiency (Figma)',
   },
 ];
 
 export const worksData1: Work[] = [
   {
-    iconSrc,
+    iconSrc: iconSrcDarken,
     list: 'Basic React Knowledge',
   },
   {
-    iconSrc,
+    iconSrc: iconSrcDarken,
     list: 'Inconsistent Design Translation',
   },
   {
-    iconSrc,
+    iconSrc: iconSrcDarken,
     list: 'Little to No TypeScript Knowledge',
   },
   {
-    iconSrc,
+    iconSrc: iconSrcDarken,
     list: 'Unstructured Code',
   },
   {
-    iconSrc,
+    iconSrc: iconSrcDarken,
     list: 'Inconsistent Responsiveness',
   },
   {
-    iconSrc,
+    iconSrc: iconSrcDarken,
     list: 'No Design Skills',
   },
 ];

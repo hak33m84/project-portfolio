@@ -3,7 +3,7 @@ import React from 'react';
 type SectionProps = {
   children: React.ReactNode;
   title: string;
-  subtitle: string;
+  subtitle: React.ReactNode;
   id?: string;
 };
 
@@ -14,7 +14,7 @@ export const Section: React.FC<SectionProps> = ({
   id,
 }) => {
   return (
-    <div className='custom-container py-12.5 md:py-20' id={id}>
+    <div className='custom-container py-10 md:py-20' id={id}>
       <div className='text-center'>
         <p className='text-md-medium md:text-lg-medium text-primary-200'>
           {title}
