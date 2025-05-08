@@ -45,7 +45,7 @@ const Card: React.FC<CardProps> = ({ imageSrc, name, description }) => {
       <Image
         src={imageSrc}
         alt={name}
-        className='aspect-square rounded-2xl object-cover md:rounded-3xl'
+        className='aspect-square rounded-2xl object-cover duration-500 hover:scale-90 md:rounded-3xl'
       />
       <h4 className='text-lg-bold text-neutral-25 md:display-xs-bold mt-3 md:mt-4'>
         {name}

@@ -77,8 +77,8 @@ const ContactForm = () => {
   }
 
   return (
-    <section className='relative max-md:mb-7'>
-      <DecorationBox className='absolute -bottom-17 left-60 z-10 h-[4.3rem] w-[6.45rem] md:-bottom-40 md:left-120 md:h-[5.75rem] md:w-[8.625rem]' />
+    <section className='relative max-md:mb-6'>
+      <DecorationBox className='absolute -bottom-16 left-65.5 -z-10 h-[4.3rem] w-[6.45rem] md:-bottom-40 md:left-120 md:h-[5.75rem] md:w-[8.625rem]' />
 
       <Form {...form}>
         <form

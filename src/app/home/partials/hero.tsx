@@ -30,6 +30,10 @@ const Hero = () => {
       className='custom-container relative flex flex-wrap lg:h-218'
       id='hero'
     >
+      <div className='absolute top-16 left-1/2 z-10 hidden h-0.25 w-312 -translate-x-1/2 bg-neutral-800 lg:block' />
+      <div className='absolute top-1/2 left-1/2 z-10 hidden h-0.25 w-218.75 -translate-x-1/2 rotate-90 items-center bg-neutral-800 lg:block' />
+      <div className='absolute top-1/2 -left-1/2 z-10 hidden h-0.25 w-218.5 translate-x-1/2 rotate-90 bg-neutral-800 lg:block' />
+      <div className='absolute bottom-0 left-1/2 z-10 hidden h-0.25 w-312 -translate-x-1/2 bg-neutral-800 lg:block' />
       <Navbar />
       <DecorationBox className='absolute bottom-[20%] left-0 z-10 h-[4.3rem] w-[6.45rem] md:bottom-0 md:-left-32 md:h-[5.75rem] md:w-[8.625rem]' />
 

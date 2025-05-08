@@ -21,13 +21,16 @@ const Skills = () => {
             SKILLS THAT BRING IDEAS TO LIFE
           </h3>
         </div>
-        <div className='mt-6 flex flex-wrap gap-6 md:mt-14.5 md:w-100'>
+        <div className='mt-6 flex w-66 flex-wrap gap-6 md:mt-14.5 md:w-100'>
           {skillsData.map((skill) => (
-            <div key={skill.alt} className=''>
+            <div
+              key={skill.alt}
+              className='flex-center bg-base-black aspect-square h-12 rounded-full border border-neutral-800 duration-500 hover:scale-125 md:h-16'
+            >
               <Image
                 src={skill.icon}
                 alt={skill.alt}
-                className='w-12 rounded-full border border-neutral-800 p-2.5 md:w-16'
+                className='h-1/2 w-auto'
               />
             </div>
           ))}

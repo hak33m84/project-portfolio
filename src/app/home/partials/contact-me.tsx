@@ -20,7 +20,7 @@ const ContactMe = () => {
         {/* Man Image */}
         <div className='relative mx-auto gap-4 md:gap-6'>
           <Image
-            src='/Images/man-hero.png'
+            src='/Images/man-contact.png'
             alt='man'
             width={421}
             height={640}
@@ -31,13 +31,17 @@ const ContactMe = () => {
 
         {/* Social Media */}
         <div className='bg-base-transparent absolute right-0 bottom-0 z-10 flex w-full flex-col items-center gap-4 md:gap-6'>
-          <div className='flex-center gap-4 md:gap-6'>
+          <div className='flex flex-wrap gap-4 md:gap-6'>
             {socialMediaData.map((data) => (
-              <Link key={data.alt} href={data.href} className='flex-center'>
+              <Link
+                key={data.alt}
+                href={data.href}
+                className='flex-center bg-base-black aspect-square size-12 rounded-full border border-neutral-800 p-2.5 duration-500 hover:scale-125 md:size-16'
+              >
                 <Image
                   src={data.icon}
                   alt={data.alt}
-                  className='size-12 rounded-full border border-neutral-800 p-2.5 md:size-16'
+                  className='h-3/4 w-auto'
                 />
               </Link>
             ))}
@@ -48,7 +52,7 @@ const ContactMe = () => {
             </p>
             <div className='flex-center gap-3'>
               <Image
-                src='/Icons/Ellipse-2.png'
+                src='/Icons/green-dot.png'
                 alt='dot'
                 width={12}
                 height={12}

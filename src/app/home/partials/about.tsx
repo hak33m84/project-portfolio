@@ -31,21 +31,21 @@ const About = () => {
           alt='web-1'
           width={238}
           height={178}
-          className='absolute -z-5 h-31.75 w-42.5 max-md:left-16 md:-top-112.5 md:left-32.5 md:h-44.5 md:w-59.5'
+          className='absolute -z-5 h-31.75 w-42.5 max-md:left-4 md:-top-112.5 md:left-32.5 md:h-44.5 md:w-59.5'
         />
         <Image
           src='/Images/web-3.jpg'
           alt='web-3'
           width={250}
           height={187}
-          className='absolute -z-10 h-24.75 w-33.5 max-md:top-11.25 max-md:right-14.75 md:-top-104 md:right-15 md:h-46.75 md:w-62.5'
+          className='absolute -z-10 h-24.75 w-33.5 max-md:top-11.25 max-md:right-2.75 md:-top-104 md:right-15 md:h-46.75 md:w-62.5'
         />
         <Image
           src='/Images/web-2.jpg'
           alt='web-2'
           width={117}
           height={88}
-          className='absolute z-10 h-25 w-33 max-md:top-41 max-md:left-42 md:-top-43 md:right-82 md:h-22 md:w-29.25'
+          className='absolute z-10 h-25 w-33 max-md:top-41 max-md:left-30 md:-top-43 md:right-82 md:h-22 md:w-29.25'
         />
       </div>
     </Section>
