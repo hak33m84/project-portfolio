@@ -86,7 +86,7 @@ const Hero = () => {
         >
           <div className='bg-primary-200 pointer-events-none absolute top-0 right-0 h-full w-1/2' />
           <Image
-            src='/Images/man-hero.png'
+            src='/Images/man-contact.png'
             alt='hero'
             width={660}
             height={874}
