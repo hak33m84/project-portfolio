@@ -45,7 +45,7 @@ const Navbar = () => {
             className='w-6 md:w-10'
           />
           <p className='text-primary-200 text-md-bold md:text-xl-bold shrink-0'>
-            Budi Hakim.
+            Edwin Anderson.
           </p>
         </div>
 

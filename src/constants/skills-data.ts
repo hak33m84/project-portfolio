@@ -1,12 +1,12 @@
 import { StaticImageData } from 'next/image';
 
 import iconCSS from '../../public/Icons/css.svg';
+import iconDocker from '../../public/Icons/docker.svg';
+import iconExpressJS from '../../public/Icons/expressjs.svg';
 import iconHtml from '../../public/Icons/html.svg';
 import iconJS from '../../public/Icons/js.svg';
-import iconNextJS from '../../public/Icons/nextjs.png';
+import iconMongoDB from '../../public/Icons/mongodb.svg';
 import iconReact from '../../public/Icons/reactjs.svg';
-import iconShadcn from '../../public/Icons/shadcn-ui.svg';
-import iconTailwind from '../../public/Icons/tailwind-css.svg';
 import iconTS from '../../public/Icons/ts.svg';
 
 type Skill = {
@@ -15,12 +15,12 @@ type Skill = {
 };
 
 export const skillsData: Skill[] = [
-  { icon: iconNextJS, alt: 'NextJS' },
-  { icon: iconReact, alt: 'ReactJS' },
-  { icon: iconShadcn, alt: 'Shadcn' },
-  { icon: iconTS, alt: 'TypeScript' },
   { icon: iconJS, alt: 'JavaScript' },
-  { icon: iconTailwind, alt: 'Tailwind' },
   { icon: iconCSS, alt: 'CSS' },
   { icon: iconHtml, alt: 'HTML' },
+  { icon: iconExpressJS, alt: 'ExpressJS' },
+  { icon: iconMongoDB, alt: 'MongoDB' },
+  { icon: iconReact, alt: 'ReactJS' },
+  { icon: iconTS, alt: 'TypeScript' },
+  { icon: iconDocker, alt: 'Docker' },
 ];
