@@ -75,7 +75,9 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
         <Image src={rating} alt='star' />
         <Image src={rating} alt='star' />
       </div>
-      <p className='text-md-medium text-neutral-25 mt-3'>{description}</p>
+      <p className='text-md-medium text-neutral-25 mt-3 line-clamp-3'>
+        {description}
+      </p>
     </div>
   );
 };

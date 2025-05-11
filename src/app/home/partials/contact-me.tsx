@@ -20,7 +20,7 @@ const ContactMe = () => {
         {/* Man Image */}
         <div className='relative mx-auto gap-4 md:gap-6'>
           <Image
-            src='/Images/man-contact.png'
+            src='/Images/man-contact12.png'
             alt='man'
             width={421}
             height={640}
@@ -36,6 +36,8 @@ const ContactMe = () => {
               <Link
                 key={data.alt}
                 href={data.href}
+                target='_blank'
+                rel='noopener noreferrer'
                 className='flex-center bg-base-black aspect-square size-12 rounded-full border border-neutral-800 p-2.5 duration-500 hover:scale-125 md:size-16'
               >
                 <Image
@@ -48,7 +50,7 @@ const ContactMe = () => {
           </div>
           <div className='flex flex-col gap-2'>
             <p className='text-md-bold md:text-xl-bold text-neutral-25 text-center'>
-              Edwin Anderson
+              Budi Hakim
             </p>
             <div className='flex-center gap-3'>
               <Image

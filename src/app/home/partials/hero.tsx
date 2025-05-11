@@ -54,7 +54,7 @@ const Hero = () => {
             className='w-5.25 md:w-28.5'
           />
           <p className='text-md-medium md:text-xl-medium text-neutral-25'>
-            Hi, I am Edwin Anderson Frontend Developer
+            Hi, I am Hakim Frontend Developer
           </p>
         </div>
         <h1 className='display-lg-extrabold md:display-3xl-extrabold md:text-[80px]'>
@@ -86,11 +86,11 @@ const Hero = () => {
         >
           <div className='bg-primary-200 pointer-events-none absolute top-0 right-0 h-full w-1/2' />
           <Image
-            src='/Images/man-contact.png'
+            src='/Images/man-contact12.png'
             alt='hero'
             width={660}
-            height={874}
-            className='mx-auto pr-5 mix-blend-luminosity grayscale md:pr-10'
+            height={850}
+            className='absolute top-3 -right-1 mx-auto pr-0 mix-blend-luminosity grayscale md:-right-3'
           />
           <div className='bg-primary-200 absolute inset-y-0 top-0 right-0 w-1/2 mix-blend-color' />
           <div className='from-base-black absolute inset-0 bg-linear-to-t to-transparent' />
@@ -139,7 +139,7 @@ const Hero = () => {
               />
             </div>
             <p className='text-md-semibold md:text-xl-semibold text-neutral-25 h-7.5 md:h-8.5'>
-              Many Client Trust with me
+              Excellent Result Oriented
             </p>
           </div>
         </div>

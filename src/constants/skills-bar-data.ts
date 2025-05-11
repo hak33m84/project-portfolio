@@ -5,12 +5,20 @@ type Skill = {
 
 export const skillsData: Skill[] = [
   {
+    name: 'Next JS',
+    percentage: 90,
+  },
+  {
     name: 'React JS',
-    percentage: 50,
+    percentage: 80,
+  },
+  {
+    name: 'Shadcn UI',
+    percentage: 90,
   },
   {
     name: 'TypeScript',
-    percentage: 80,
+    percentage: 70,
   },
   {
     name: 'Tailwind CSS',
@@ -19,13 +27,5 @@ export const skillsData: Skill[] = [
   {
     name: 'HTML',
     percentage: 100,
-  },
-  {
-    name: 'Docker',
-    percentage: 70,
-  },
-  {
-    name: 'JavaScript',
-    percentage: 90,
   },
 ];

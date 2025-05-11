@@ -13,7 +13,7 @@ export const faqsData: Faq[] = [
     iconSrc: iconAsteric,
     title: 'What technologies do you specialize in?',
     description:
-      'I specialize in React.js, Next.js, Vue.js, Tailwind CSS, and TypeScript, ensuring high-performance, scalable, and maintainable web applications.',
+      'I specialize in React.js, Next.js, Shadcn UI, Tailwind CSS, and TypeScript, ensuring high-performance, scalable, and maintainable web applications.',
   },
   {
     iconSrc: iconAsteric,

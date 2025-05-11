@@ -1,11 +1,15 @@
+'use client';
+
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 
 import { skillsData } from '@/constants/skills-data';
 
 import SkillsBar from './skills-bar';
 
 const Skills = () => {
+  const [hoveredSkill, setHoveredSkill] = useState<string | null>(null);
+
   return (
     <section
       className='custom-container flex flex-wrap gap-10 py-10 md:gap-14.5 md:py-20'
@@ -25,13 +29,20 @@ const Skills = () => {
           {skillsData.map((skill) => (
             <div
               key={skill.alt}
-              className='flex-center bg-base-black aspect-square h-12 rounded-full border border-neutral-800 duration-500 hover:scale-125 md:h-16'
+              className='flex-center bg-base-black relative aspect-square h-12 rounded-full border border-neutral-800 duration-500 hover:scale-125 md:h-16'
+              onMouseEnter={() => setHoveredSkill(skill.alt)}
+              onMouseLeave={() => setHoveredSkill(null)}
             >
               <Image
                 src={skill.icon}
                 alt={skill.alt}
                 className='h-1/2 w-auto'
               />
+              {hoveredSkill === skill.alt && (
+                <div className='bg-base-black text-neutral-25 text-xs-bold absolute bottom-13 left-1/2 -translate-x-1/2 transform rounded p-1'>
+                  {skill.alt}
+                </div>
+              )}
             </div>
           ))}
         </div>
