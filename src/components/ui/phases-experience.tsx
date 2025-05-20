@@ -62,7 +62,7 @@ export const PhasesExperienceItem: React.FC<PhasesExperienceItemProps> = ({
       {!isLargeIsh && <LineAndCircle index={index} isLargeIsh={isLargeIsh} />}
 
       {/* right column */}
-      <div className='mt-4 flex flex-col rounded-2xl border border-neutral-800 p-4 md:rounded-3xl md:p-6'>
+      <div className='my-4 flex flex-col rounded-2xl border border-neutral-800 p-4 md:rounded-3xl md:p-6'>
         <div className='flex flex-col gap-2 md:flex-row md:justify-between'>
           <div className='flex flex-col'>
             <p className='text-sm-regular md:text-lg-medium text-neutral-400'>
@@ -74,7 +74,7 @@ export const PhasesExperienceItem: React.FC<PhasesExperienceItemProps> = ({
           </div>
           <Image src={icon} alt={alt} className='h-8 w-19 md:h-12 md:w-28.5' />
         </div>
-        <p className='text-sm-regular md:text-md-regular mt-4 text-start text-neutral-400'>
+        <p className='text-sm-regular md:text-md-regular mt-4 text-start leading-7 text-neutral-400'>
           {description}
         </p>
       </div>

@@ -24,12 +24,12 @@ const Working = () => {
               className='size-15 rounded-full bg-neutral-950 md:size-20'
             />
           </div>
-          <nav className='flex-start mt-6 md:mt-8'>
+          <nav className='mt-6 md:mt-8'>
             <ul className='flex flex-col gap-12 md:gap-16'>
               {worksData.map((work, index) => (
                 <li
                   key={`${work.list}-${index}`}
-                  className='text-md-bold md:text-xl-bold flex items-center gap-3'
+                  className='text-md-bold md:text-xl-bold relative flex items-center gap-3'
                 >
                   <Image
                     src={work.iconSrc}
@@ -39,6 +39,9 @@ const Working = () => {
                     className='size-6 items-center object-contain md:size-8'
                   />
                   <p>{work.list}</p>
+                  {index < worksData.length - 1 && (
+                    <div className='absolute -bottom-6 h-0.25 w-full bg-neutral-800 md:-bottom-8' />
+                  )}
                 </li>
               ))}
             </ul>
@@ -63,7 +66,7 @@ const Working = () => {
               {worksData1.map((work, index) => (
                 <li
                   key={`${work.list}-${index}`}
-                  className='text-md-regular md:display-xs-regular flex items-center gap-3 text-neutral-400'
+                  className='text-md-regular md:display-xs-regular relative flex items-center gap-3 text-neutral-400'
                 >
                   <Image
                     src={work.iconSrc}
@@ -73,6 +76,9 @@ const Working = () => {
                     className='size-6 items-center object-contain md:size-8'
                   />
                   <p>{work.list}</p>
+                  {index < worksData1.length - 1 && (
+                    <div className='absolute -bottom-6 h-0.25 w-full bg-neutral-800 md:-bottom-8' />
+                  )}
                 </li>
               ))}
             </ul>

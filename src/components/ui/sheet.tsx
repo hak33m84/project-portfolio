@@ -72,7 +72,7 @@ function SheetContent({
         )}
         {...props}
       >
-        <div className='flex-start relative h-20 w-full gap-2.25 border-b border-neutral-800 max-md:px-4 max-md:py-6.25'>
+        <div className='flex-start relative h-20 w-auto gap-2.25 border-b border-neutral-800 max-md:px-6 max-md:py-6.25'>
           <Image
             src='/Icons/Line-logo.svg'
             alt='Logo'

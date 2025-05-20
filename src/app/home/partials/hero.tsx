@@ -39,7 +39,7 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div
-        className='z-20 flex-[5.9] basis-110 pb-10 md:p-0'
+        className='z-20 flex-[5.9] basis-90 pb-10 md:p-0'
         style={{
           width: 'clamp(22.5rem, 64.66vw, 50.4375rem)',
           marginTop: 'clamp(7.5rem, 17.71vw, 13.81rem)',
@@ -54,7 +54,7 @@ const Hero = () => {
             className='w-5.25 md:w-28.5'
           />
           <p className='text-md-medium md:text-xl-medium text-neutral-25'>
-            Hi, I am Edwin Anderson Frontend Developer
+            Hi, I am Edwin, a Frontend Developer
           </p>
         </div>
         <h1 className='display-lg-extrabold md:display-3xl-extrabold md:text-[80px]'>
@@ -65,7 +65,7 @@ const Hero = () => {
           Bridging creativity and functionality to deliver stunning,
           user-friendly web applications
         </p>
-        <Button asChild className='mt-10 w-full md:mt-15 md:w-fit md:px-29'>
+        <Button asChild className='mt-10 w-auto md:mt-15 md:w-fit md:px-29'>
           <Link
             href='#contact'
             className='text-sm-bold md:text-md-bold text-neutral-950'
@@ -76,7 +76,7 @@ const Hero = () => {
       </div>
 
       {/*Hero Profile*/}
-      <div className='top-0 right-0 mt-0 mb-10 flex-[4.1] basis-110 md:absolute md:mt-0'>
+      <div className='top-0 right-0 mt-0 mb-10 flex-[4.1] basis-90 md:absolute md:mt-0'>
         <div
           className='relative mx-auto overflow-hidden'
           style={{

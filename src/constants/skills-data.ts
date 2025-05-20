@@ -19,6 +19,9 @@ export const skillsData: Skill[] = [
   { icon: iconCSS, alt: 'CSS' },
   { icon: iconHtml, alt: 'HTML' },
   { icon: iconExpressJS, alt: 'ExpressJS' },
+];
+
+export const skillsData1: Skill[] = [
   { icon: iconMongoDB, alt: 'MongoDB' },
   { icon: iconReact, alt: 'ReactJS' },
   { icon: iconTS, alt: 'TypeScript' },
