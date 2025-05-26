@@ -102,41 +102,18 @@ const Hero = () => {
               5.0
             </h3>
             <div className='flex gap-1'>
-              <Image
-                src='/Icons/icon-star-gold.svg'
-                alt='star'
-                width={8}
-                height={8}
-                className='size-4.25 md:size-5.75'
-              />
-              <Image
-                src='/Icons/icon-star-gold.svg'
-                alt='star'
-                width={8}
-                height={8}
-                className='size-4.25 md:size-5.75'
-              />
-              <Image
-                src='/Icons/icon-star-gold.svg'
-                alt='star'
-                width={8}
-                height={8}
-                className='size-4.25 md:size-5.75'
-              />
-              <Image
-                src='/Icons/icon-star-gold.svg'
-                alt='star'
-                width={8}
-                height={8}
-                className='size-4.25 md:size-5.75'
-              />
-              <Image
-                src='/Icons/icon-star-gold.svg'
-                alt='star'
-                width={8}
-                height={8}
-                className='size-4.25 md:size-5.75'
-              />
+              {Array(5)
+                .fill(0)
+                .map((_, i) => (
+                  <Image
+                    key={i}
+                    src='/Icons/icon-star-gold.svg'
+                    alt='star'
+                    width={8}
+                    height={8}
+                    className='size-4.25 md:size-5.75'
+                  />
+                ))}
             </div>
             <p className='text-md-semibold md:text-xl-semibold text-neutral-25 h-7.5 md:h-8.5'>
               Many Client Trust with me
